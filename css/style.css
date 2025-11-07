@@ -40,25 +40,25 @@ nav {
     align-items: center;
 }
 
-.container {
+.dsc-container {
     width: 100%;
     max-width: 960px;
     margin: 0 auto;
 }
 
-.card {
+.dsc-card {
     border: 1px solid var(--color-border-gray);
     background-color: var(--color-white);
     border-radius: 4px;
 }
 
-.btn-page-container {
+.dsc-btn-page-container {
     width: 220px;
     display: grid;
     grid-gap: 20px;
 }
 
-.btn {
+.dsc-btn {
     border-radius: 4px;
     height: 42px;
     font-size: 16px;
@@ -68,21 +68,21 @@ nav {
     align-items: center;
 }
 
-.btn-blue {
+.dsc-btn-blue {
     background-color: var(--color-blue);
     color: var(--color-white);
 }
 
-.btn-white {
+.dsc-btn-white {
     background-color: var(--color-white);
     color: var(--color-blue);
     border: 1px solid var(--color-blue);
 }
 
-.mb20 {
+.dsc-mb20 {
     margin-bottom: 20px;
 }
 
-.line-bottom {
+.dsc-line-bottom {
     border-bottom: 1px solid var(--color-border-gray);
 }
