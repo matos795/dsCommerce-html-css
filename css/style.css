@@ -40,6 +40,15 @@ nav {
     align-items: center;
 }
 
+nav a {
+    font-size: 14px;
+    font-weight: 700;
+}
+
+main {
+    padding: 0 20px;
+}
+
 .dsc-container {
     width: 100%;
     max-width: 960px;
@@ -56,6 +65,12 @@ nav {
     width: 220px;
     display: grid;
     grid-gap: 20px;
+}
+
+@media (max-width: 576px) {
+    .dsc-btn-page-container {
+    width: 100%;
+}
 }
 
 .dsc-btn {
