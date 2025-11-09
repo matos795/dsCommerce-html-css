@@ -56,11 +56,18 @@ main {
     margin: 0 auto;
 }
 
+
+/*--------------------------------------------------------------------*/
+/* card styles */
+
 .dsc-card {
     border: 1px solid var(--color-border-gray);
     background-color: var(--color-white);
     border-radius: 4px;
 }
+
+/*---------------------------------------------------------------------*/
+/* button styles */
 
 .dsc-btn-page-container {
     width: 100%;
@@ -95,8 +102,23 @@ main {
     border: 1px solid var(--color-blue);
 }
 
+.dsc-btn-next-page {
+    border: 1px solid var(--color-blue);
+    padding: 10px;
+    border-radius: 4px;
+    color: var(--color-blue);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
 .dsc-mb20 {
     margin-bottom: 20px;
+}
+
+.dsc-mt20 {
+    margin-top: 20px;
 }
 
 .dsc-line-bottom {
