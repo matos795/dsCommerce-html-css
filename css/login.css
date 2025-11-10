@@ -1,0 +1,15 @@
+@import url(style.css);
+
+#login-container-section {
+    padding: 40px 0px;
+}
+
+.dsc-login-form-container {
+    width: 100%;
+    max-width: 360px;
+    margin: 0 auto;
+}
+
+.dsc-login-form-buttons {
+    width: 100%;
+}
